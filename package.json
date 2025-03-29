@@ -1,0 +1,12 @@
+{
+  "name": "@warren-bank/Android-SMS-Automatic-Forwarding-To-Email",
+  "private": true,
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "@warren-bank/translate-android-strings": "^1.9.2"
+  },
+  "scripts": {
+    "translate":       "translate-android-strings -i \"en\" -f \"android-studio-project/SMS-To-Email/src/main/res/values/strings.xml\" -d \"android-studio-project/SMS-To-Email/src/withAllLanguageTranslations/res\" -m --na --nc --nw -b \"(?:SMS|SMTP)\"",
+    "translate:debug": "npm run translate -- -o \"en\" --debug"
+  }
+}

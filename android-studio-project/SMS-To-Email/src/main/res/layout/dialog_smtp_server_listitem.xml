@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:fillViewport="true">
+
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="left"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:padding="20dp">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/label_smtp_hostname"
+      style="@style/dialog_textview" />
+
+    <EditText
+      android:id="@+id/input_smtp_hostname"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="text|textNoSuggestions" />
+
+    <TextView
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/label_smtp_port"
+      style="@style/dialog_textview" />
+
+    <EditText
+      android:id="@+id/input_smtp_port"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="number"
+      android:numeric="integer"
+      android:maxLength="6" />
+
+    <TextView
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/label_smtp_encryption"
+      style="@style/dialog_textview" />
+
+    <Spinner
+      android:id="@+id/input_smtp_encryption"
+      android:prompt="@string/label_smtp_encryption"
+      android:entries="@array/smtp_encryption_options_array"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+    <CheckBox
+      android:layout_marginTop="10dp"
+      android:id="@+id/input_smtp_authentication"
+      android:text="@string/label_smtp_authentication"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+
+    <TextView
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/label_smtp_username"
+      style="@style/dialog_textview" />
+
+    <EditText
+      android:id="@+id/input_smtp_username"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="text|textNoSuggestions" />
+
+    <TextView
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/label_smtp_password"
+      style="@style/dialog_textview" />
+
+    <EditText
+      android:id="@+id/input_smtp_password"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="text|textNoSuggestions" />
+
+    <TextView
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/label_smtp_from"
+      style="@style/dialog_textview" />
+
+    <EditText
+      android:id="@+id/input_smtp_from"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="textEmailAddress|textNoSuggestions" />
+
+    <!-- ___________________________________________________________________ -->
+
+    <View
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="2dp"
+      android:background="@color/listview_divider" />
+
+    <!-- ___________________________________________________________________ -->
+
+    <TextView
+      android:layout_marginTop="10dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="@string/label_test_email_heading"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+    <TextView
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/label_test_email_recipient"
+      style="@style/dialog_textview" />
+
+    <EditText
+      android:id="@+id/input_test_email_recipient"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/hint_test_email_recipient"
+      android:inputType="textEmailAddress|textNoSuggestions" />
+
+    <LinearLayout
+      android:layout_marginTop="10dp"
+      android:orientation="horizontal"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+      <Button
+        android:id="@+id/button_test_email_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_button_test_email_send"
+        android:padding="10dp" />
+
+    </LinearLayout>
+
+    <!-- ___________________________________________________________________ -->
+
+    <View
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="2dp"
+      android:background="@color/listview_divider" />
+
+    <!-- ___________________________________________________________________ -->
+
+    <LinearLayout
+      android:layout_marginTop="10dp"
+      android:orientation="horizontal"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+      <Button
+        android:id="@+id/button_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_button_delete"
+        android:padding="10dp" />
+
+      <Button
+        android:layout_marginLeft="20dp"
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_button_save"
+        android:padding="10dp" />
+
+    </LinearLayout>
+
+  </LinearLayout>
+</ScrollView>

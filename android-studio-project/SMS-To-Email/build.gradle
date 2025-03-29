@@ -1,0 +1,79 @@
+apply from: '../constants.gradle'
+apply plugin: 'com.android.application'
+
+android {
+  namespace project.ext.applicationId
+
+  compileSdkVersion project.ext.compileSdkVersion
+  buildToolsVersion project.ext.buildToolsVersion
+
+  compileOptions {
+    sourceCompatibility project.ext.javaVersion
+    targetCompatibility project.ext.javaVersion
+  }
+
+  defaultConfig {
+    minSdkVersion    project.ext.minSdkVersion
+    targetSdkVersion project.ext.targetSdkVersion
+
+    applicationId project.ext.applicationId
+    versionName   project.ext.releaseVersion
+    versionCode   project.ext.releaseVersionCode
+
+    archivesBaseName += "-$versionName"
+  }
+
+  flavorDimensions "languageResources"
+
+  productFlavors {
+    withAllLanguageTranslations {
+      dimension "languageResources"
+    }
+    english {
+      dimension "languageResources"
+    }
+  }
+
+  buildTypes {
+    release {
+      debuggable      false
+      jniDebuggable   false
+      shrinkResources true
+      minifyEnabled   true
+      proguardFiles = [
+        "proguard-rules.txt",
+        getDefaultProguardFile('proguard-android.txt')
+      ]
+    }
+    debug {
+      debuggable      true
+      jniDebuggable   true
+      shrinkResources false
+      minifyEnabled   false
+    }
+  }
+
+  dependenciesInfo {
+    includeInApk    = false  // Disables dependency metadata when building APKs.
+    includeInBundle = false  // Disables dependency metadata when building Android App Bundles.
+  }
+
+  packaging {
+    resources {
+      it.excludes += "META-INF/LICENSE.md"
+      it.excludes += "META-INF/NOTICE.md"
+    }
+  }
+
+  lintOptions {
+    disable 'MissingTranslation'
+    abortOnError true
+  }
+}
+
+dependencies {
+  implementation 'com.google.code.gson:gson:2.8.5'        // https://mvnrepository.com/artifact/com.google.code.gson/gson
+
+  implementation 'com.sun.mail:android-activation:1.6.7'  // https://mvnrepository.com/artifact/com.sun.mail/android-activation
+  implementation 'com.sun.mail:android-mail:1.6.7'        // https://mvnrepository.com/artifact/com.sun.mail/android-mail
+}
