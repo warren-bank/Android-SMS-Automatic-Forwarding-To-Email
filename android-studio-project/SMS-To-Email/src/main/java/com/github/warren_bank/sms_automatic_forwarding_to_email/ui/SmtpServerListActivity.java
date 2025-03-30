@@ -71,14 +71,22 @@ public class SmtpServerListActivity extends Activity {
     listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
       @Override
       public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-        if (position == listItemSelectedIndex) return false;
-
-        listItemSelectedIndex = position;
-        listAdapter.notifyDataSetChanged();
-        Preferences.setSmtpServerListItemIndex(SmtpServerListActivity.this, position);
-        return true;
+        return setListItemSelectedIndex(position);
       }
     });
+  }
+
+  // ---------------------------------------------------------------------------------------------
+  // State Management:
+  // ---------------------------------------------------------------------------------------------
+
+  private boolean setListItemSelectedIndex(int position) {
+    if (position == listItemSelectedIndex) return false;
+
+    listItemSelectedIndex = position;
+    listAdapter.notifyDataSetChanged();
+    Preferences.setSmtpServerListItemIndex(SmtpServerListActivity.this, position);
+    return true;
   }
 
   // ---------------------------------------------------------------------------------------------
@@ -200,7 +208,17 @@ public class SmtpServerListActivity extends Activity {
       public void onClick(View v) {
         if (!isAdd) {
           listItems.remove(position);
-          listAdapter.notifyDataSetChanged();
+
+          boolean didNotify = false;
+          if (position < listItemSelectedIndex) {
+            didNotify = setListItemSelectedIndex(listItemSelectedIndex - 1);
+          }
+          else if (position == listItemSelectedIndex) {
+            didNotify = setListItemSelectedIndex(0);
+          }
+          if (!didNotify) {
+            listAdapter.notifyDataSetChanged();
+          }
         }
         dialog.dismiss();
       }
