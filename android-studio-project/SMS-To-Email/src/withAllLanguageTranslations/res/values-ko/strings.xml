@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS 이메일 받기</string>
+  <string name="label_enable">서비스 사용 가능</string>
+  <string name="menu_add">추가</string>
+  <string name="menu_smtp_server">SMTP 서버</string>
+  <string name="label_button_cancel">취소</string>
+  <string name="label_button_delete">삭제</string>
+  <string name="label_button_save">저장</string>
+  <string name="label_email_recipient">이메일 수신인:</string>
+  <string name="label_email_subject">이메일 제목:</string>
+  <string name="label_sms_sender">SMS 송신자는 다음으로 끝나야 합니다.:</string>
+  <string name="default_email_subject">다음의 새 텍스트 메시지 {{sender}}</string>
+  <string name="label_smtp_hostname">호스트:</string>
+  <string name="label_smtp_port">포트:</string>
+  <string name="label_smtp_encryption">암호화 사용:</string>
+  <string name="label_smtp_authentication">인증 필요</string>
+  <string name="label_smtp_username">사용자 이름:</string>
+  <string name="label_smtp_password">암호:</string>
+  <string name="label_smtp_from">시작:</string>
+  <string name="label_smtp_subject">주제:</string>
+  <string name="label_test_email_heading">테스트 이메일</string>
+  <string name="label_test_email_recipient">받는 사람:</string>
+  <string name="label_button_test_email_send">보내기</string>
+  <string name="content_test_email_message">SMTP 서버 설정이 올바르다.!</string>
+  <string name="notification_test_email_sent">전송된 이메일 테스트</string>
+  <string name="smtp_encryption_option_none">아니오</string>
+  <string name="error_missing_required_value">오류: 필수 값이 누락되었습니다.</string>
+  <string name="error_add_listitem">오류: 목록에 새 항목을 추가할 수 없습니다.</string>
+</resources>

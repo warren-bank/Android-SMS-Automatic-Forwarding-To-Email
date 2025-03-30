@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS I Ebost</string>
+  <string name="label_enable">Galluogi Gwasanaeth</string>
+  <string name="menu_add">ADD</string>
+  <string name="menu_smtp_server">SMTP Gweinydd</string>
+  <string name="label_button_cancel">DIDDYMU</string>
+  <string name="label_button_delete">DILEU</string>
+  <string name="label_button_save">CADW</string>
+  <string name="label_email_recipient">Derbynnydd Ebost:</string>
+  <string name="label_email_subject">Pwnc Ebost:</string>
+  <string name="label_sms_sender">SMS Rhaid i\'r anfonwr orffen gyda:</string>
+  <string name="default_email_subject">Neges testun newydd o {{sender}}</string>
+  <string name="label_smtp_hostname">Gwesteiwr:</string>
+  <string name="label_smtp_port">Porth:</string>
+  <string name="label_smtp_encryption">Defnyddio Amgryptiad:</string>
+  <string name="label_smtp_authentication">Angen Dilysiant</string>
+  <string name="label_smtp_username">Enw defnyddiwr:</string>
+  <string name="label_smtp_password">Cyfrinair:</string>
+  <string name="label_smtp_from">O:</string>
+  <string name="label_smtp_subject">Pwnc:</string>
+  <string name="label_test_email_heading">Ebost:</string>
+  <string name="label_test_email_recipient">Derbynnydd:</string>
+  <string name="label_button_test_email_send">Anfon</string>
+  <string name="content_test_email_message">SMTP Gosodiadau gweinydd yn gywir!</string>
+  <string name="notification_test_email_sent">Anfonwyd e-bost prawf</string>
+  <string name="smtp_encryption_option_none">na</string>
+  <string name="error_missing_required_value">Gwall: Mae Gwerth Angenrheidiol Ar Goll</string>
+  <string name="error_add_listitem">Gwall: Methwyd ychwanegu eitem newydd at y rhestr</string>
+</resources>

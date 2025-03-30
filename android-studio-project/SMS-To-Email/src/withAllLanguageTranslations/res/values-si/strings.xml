@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS විද්යුත් තැපෑලට</string>
+  <string name="label_enable">සේවාව සක්රීය කරන්න</string>
+  <string name="menu_add">එක් කරන්න</string>
+  <string name="menu_smtp_server">SMTP සේවාදායකය</string>
+  <string name="label_button_cancel">අවලංගු කරන්න</string>
+  <string name="label_button_delete">මකන්න</string>
+  <string name="label_button_save">සුරකින්න</string>
+  <string name="label_email_recipient">විද්යුත් තැපෑල:</string>
+  <string name="label_email_subject">විද්යුත් තැපෑල:</string>
+  <string name="label_sms_sender">SMS සෙන්ඩර් අවසන් විය යුතුයි:</string>
+  <string name="default_email_subject">නව පෙළ පණිවිඩය {{sender}}</string>
+  <string name="label_smtp_hostname">ධාරක:</string>
+  <string name="label_smtp_port">City:</string>
+  <string name="label_smtp_encryption">සංකේතනය භාවිත කරන්න:</string>
+  <string name="label_smtp_authentication">\@ action: inmenu</string>
+  <string name="label_smtp_username">Username:</string>
+  <string name="label_smtp_password">මුරපදය:</string>
+  <string name="label_smtp_from">සිට:</string>
+  <string name="label_smtp_subject">මාතෘකාව:</string>
+  <string name="label_test_email_heading">තැපැල් විද්යුත් තැපෑල</string>
+  <string name="label_test_email_recipient">Recipient:</string>
+  <string name="label_button_test_email_send">යවන්න</string>
+  <string name="content_test_email_message">SMTP සර්වර් සැකසුම් නිවැරදියි!</string>
+  <string name="notification_test_email_sent">පරීක්ෂණ විද්යුත් තැපෑල</string>
+  <string name="smtp_encryption_option_none">නෑ</string>
+  <string name="error_missing_required_value">දෝෂය: නැතිවූ ඉල්ලුම් අගය</string>
+  <string name="error_add_listitem">දෝෂය: නව අයිතමයක් ලැයිස්තුවට එක් කළ නොහැක</string>
+</resources>

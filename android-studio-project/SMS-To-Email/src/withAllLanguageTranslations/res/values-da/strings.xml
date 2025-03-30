@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Til e-mail</string>
+  <string name="label_enable">Aktivér service</string>
+  <string name="menu_add">TILFØJ</string>
+  <string name="menu_smtp_server">SMTP Server</string>
+  <string name="label_button_cancel">ANNULLÉR</string>
+  <string name="label_button_delete">SLET</string>
+  <string name="label_button_save">GEM</string>
+  <string name="label_email_recipient">E-mail-modtager:</string>
+  <string name="label_email_subject">E-mailemne:</string>
+  <string name="label_sms_sender">SMS Afsenderen skal slutte med:</string>
+  <string name="default_email_subject">Ny tekstbesked fra {{sender}}</string>
+  <string name="label_smtp_hostname">Vært:</string>
+  <string name="label_smtp_port">Port:</string>
+  <string name="label_smtp_encryption">Brug kryptering:</string>
+  <string name="label_smtp_authentication">Kræv validering</string>
+  <string name="label_smtp_username">Brugernavn:</string>
+  <string name="label_smtp_password">Kodeord:</string>
+  <string name="label_smtp_from">Fra:</string>
+  <string name="label_smtp_subject">Emne:</string>
+  <string name="label_test_email_heading">Test e-mail</string>
+  <string name="label_test_email_recipient">Modtager:</string>
+  <string name="label_button_test_email_send">Send</string>
+  <string name="content_test_email_message">SMTP Serverindstillinger er korrekte!</string>
+  <string name="notification_test_email_sent">Test-e-mail sendt</string>
+  <string name="smtp_encryption_option_none">nej</string>
+  <string name="error_missing_required_value">Fejl: Mangler påkrævet værdi</string>
+  <string name="error_add_listitem">Fejl: Kan ikke tilføje nyt element til liste</string>
+</resources>

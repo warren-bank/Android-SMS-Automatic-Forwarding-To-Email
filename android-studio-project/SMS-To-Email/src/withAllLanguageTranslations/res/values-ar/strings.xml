@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS الى بريد الكتروني</string>
+  <string name="label_enable">اتاحة الخدمة</string>
+  <string name="menu_add">اضافة</string>
+  <string name="menu_smtp_server">SMTP وحدة الخدمة</string>
+  <string name="label_button_cancel">الغاء</string>
+  <string name="label_button_delete">حذف</string>
+  <string name="label_button_save">حفظ</string>
+  <string name="label_email_recipient">مستلم البريد الالكتروني:</string>
+  <string name="label_email_subject">موضوع البريد الالكتروني:</string>
+  <string name="label_sms_sender">SMS يجب انهاء الراسل باستخدام:</string>
+  <string name="default_email_subject">رسالة نصية جديدة من {{sender}}</string>
+  <string name="label_smtp_hostname">النظام الرئيسي:</string>
+  <string name="label_smtp_port">المنفذ:</string>
+  <string name="label_smtp_encryption">استخدام التشفير:</string>
+  <string name="label_smtp_authentication">يتطلب توثيق</string>
+  <string name="label_smtp_username">اسم المستخدم:</string>
+  <string name="label_smtp_password">كلمة السرية:</string>
+  <string name="label_smtp_from">من:</string>
+  <string name="label_smtp_subject">الموضوع:</string>
+  <string name="label_test_email_heading">اختبار البريد الالكتروني</string>
+  <string name="label_test_email_recipient">المستلم:</string>
+  <string name="label_button_test_email_send">ارسال</string>
+  <string name="content_test_email_message">SMTP محددات وحدة الخدمة صحيحة!</string>
+  <string name="notification_test_email_sent">تم ارسال اختبار البريد الالكتروني</string>
+  <string name="smtp_encryption_option_none">لا</string>
+  <string name="error_missing_required_value">خطأ : القيمة المطلوبة غير موجودة</string>
+  <string name="error_add_listitem">خطأ : لا يمكن اضافة بند جديد الى الكشف</string>
+</resources>

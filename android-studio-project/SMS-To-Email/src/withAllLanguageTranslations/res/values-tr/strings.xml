@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS E-posta</string>
+  <string name="label_enable">Hizmeti Etkinleştir</string>
+  <string name="menu_add">EKLE</string>
+  <string name="menu_smtp_server">SMTP Sunucu</string>
+  <string name="label_button_cancel">CANCEL</string>
+  <string name="label_button_delete">SİL</string>
+  <string name="label_button_save">SAKLA</string>
+  <string name="label_email_recipient">Eposta Alıcısı:</string>
+  <string name="label_email_subject">Eposta Konusu:</string>
+  <string name="label_sms_sender">SMS Gönderenin sona ermesi gerekir:</string>
+  <string name="default_email_subject">Yeni metin iletisi {{sender}}</string>
+  <string name="label_smtp_hostname">Anasistem:</string>
+  <string name="label_smtp_port">Kapı:</string>
+  <string name="label_smtp_encryption">Şifrelemeyi Kullan:</string>
+  <string name="label_smtp_authentication">Kimlik Doğrulaması İst</string>
+  <string name="label_smtp_username">Kullanıcı Adı:</string>
+  <string name="label_smtp_password">Parola:</string>
+  <string name="label_smtp_from">Başlangıç:</string>
+  <string name="label_smtp_subject">Konu:</string>
+  <string name="label_test_email_heading">Epostayı Sına</string>
+  <string name="label_test_email_recipient">Alıcı:</string>
+  <string name="label_button_test_email_send">Gönder</string>
+  <string name="content_test_email_message">SMTP Sunucu ayarları doğru!</string>
+  <string name="notification_test_email_sent">Gönderilen e-postayı test et</string>
+  <string name="smtp_encryption_option_none">hayır</string>
+  <string name="error_missing_required_value">Hata: Gerekli Değer Eksik</string>
+  <string name="error_add_listitem">Hata: Listeye yeni öğe eklenemedi</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Do wiadomości e-mail</string>
+  <string name="label_enable">Włącz usługę</string>
+  <string name="menu_add">DODAJ</string>
+  <string name="menu_smtp_server">SMTP Serwer</string>
+  <string name="label_button_cancel">ANULUJ</string>
+  <string name="label_button_delete">USUŃ</string>
+  <string name="label_button_save">ZAPISZ</string>
+  <string name="label_email_recipient">Odbiorca wiadomości e-mail:</string>
+  <string name="label_email_subject">Temat wiadomości e-mail:</string>
+  <string name="label_sms_sender">SMS Nadawca musi kończyć się:</string>
+  <string name="default_email_subject">Nowy komunikat tekstowy z {{sender}}</string>
+  <string name="label_smtp_hostname">Host:</string>
+  <string name="label_smtp_port">Port:</string>
+  <string name="label_smtp_encryption">Użyj szyfrowania:</string>
+  <string name="label_smtp_authentication">Wymagaj uwierzytelnienia</string>
+  <string name="label_smtp_username">Nazwa użytkownika:</string>
+  <string name="label_smtp_password">Hasło:</string>
+  <string name="label_smtp_from">Od:</string>
+  <string name="label_smtp_subject">Temat:</string>
+  <string name="label_test_email_heading">Testowanie wiadomości e-mail</string>
+  <string name="label_test_email_recipient">Odbiorca:</string>
+  <string name="label_button_test_email_send">Wyślij</string>
+  <string name="content_test_email_message">SMTP Ustawienia serwera są poprawne!</string>
+  <string name="notification_test_email_sent">Wysłano testową wiadomość e-mail</string>
+  <string name="smtp_encryption_option_none">nie</string>
+  <string name="error_missing_required_value">Błąd: Brak wymaganej wartości</string>
+  <string name="error_add_listitem">Błąd: Nie można dodać nowego elementu do listy</string>
+</resources>

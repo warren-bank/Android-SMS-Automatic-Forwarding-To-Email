@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS По электронной почте</string>
+  <string name="label_enable">Включить службу</string>
+  <string name="menu_add">ДОБАВИТЬ</string>
+  <string name="menu_smtp_server">SMTP Сервер</string>
+  <string name="label_button_cancel">ОТМЕНА</string>
+  <string name="label_button_delete">УДАЛИТЬ</string>
+  <string name="label_button_save">СОХРАНИТЬ</string>
+  <string name="label_email_recipient">Получатель электронной почты:</string>
+  <string name="label_email_subject">Тема электронной почты:</string>
+  <string name="label_sms_sender">SMS Отправитель должен заканчиваться:</string>
+  <string name="default_email_subject">Новое текстовое сообщение от {{sender}}</string>
+  <string name="label_smtp_hostname">Хост:</string>
+  <string name="label_smtp_port">Порт:</string>
+  <string name="label_smtp_encryption">Использовать шифрование:</string>
+  <string name="label_smtp_authentication">Требовать аутентификацию</string>
+  <string name="label_smtp_username">Имя пользователя:</string>
+  <string name="label_smtp_password">Пароль:</string>
+  <string name="label_smtp_from">От:</string>
+  <string name="label_smtp_subject">Тема:</string>
+  <string name="label_test_email_heading">Проверить электронную почту</string>
+  <string name="label_test_email_recipient">Получатель:</string>
+  <string name="label_button_test_email_send">Отправить</string>
+  <string name="content_test_email_message">SMTP Правильные параметры сервера!</string>
+  <string name="notification_test_email_sent">Тестовое электронное сообщение отправлено</string>
+  <string name="smtp_encryption_option_none">нет</string>
+  <string name="error_missing_required_value">Ошибка: Отсутствует обязательное значение</string>
+  <string name="error_add_listitem">Ошибка: Не удалось добавить новый элемент в список</string>
+</resources>

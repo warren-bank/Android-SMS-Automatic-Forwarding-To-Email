@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS इमेल गर्न</string>
+  <string name="label_enable">सेवा सक्षम पार्नुहोस्</string>
+  <string name="menu_add">थप्नुहोस्</string>
+  <string name="menu_smtp_server">SMTP सर्भर</string>
+  <string name="label_button_cancel">रद्द गर्नुहोस्</string>
+  <string name="label_button_delete">मेट्नुहोस्</string>
+  <string name="label_button_save">बचत गर्नुहोस्</string>
+  <string name="label_email_recipient">इमेल प्राप्तकर्ता:</string>
+  <string name="label_email_subject">इमेल विषय:</string>
+  <string name="label_sms_sender">SMS प्रेषकले अन्त्य गर्नु पर्दछ:</string>
+  <string name="default_email_subject">यसबाट नयाँ पाठ सन्देश {{sender}}</string>
+  <string name="label_smtp_hostname">होस्ट:</string>
+  <string name="label_smtp_port">पोर्ट:</string>
+  <string name="label_smtp_encryption">गुप्तिकरण प्रयोग गर्नुहोस्:</string>
+  <string name="label_smtp_authentication">प्रमाणीकरण आवश्यक</string>
+  <string name="label_smtp_username">प्रयोगकर्ता नाम:</string>
+  <string name="label_smtp_password">पासवर्ड:</string>
+  <string name="label_smtp_from">बाट:</string>
+  <string name="label_smtp_subject">विषयवस्तु:</string>
+  <string name="label_test_email_heading">इमेल परीक्षण गर्नुहोस्</string>
+  <string name="label_test_email_recipient">प्राप्तकर्ता:</string>
+  <string name="label_button_test_email_send">पठाउनुहोस्</string>
+  <string name="content_test_email_message">SMTP सर्भर सेटिङ ठीक छ!</string>
+  <string name="notification_test_email_sent">परीक्षण इमेल पठाइयो</string>
+  <string name="smtp_encryption_option_none">छैन</string>
+  <string name="error_missing_required_value">त्रुटि: हराएको आवश्यक मान</string>
+  <string name="error_add_listitem">त्रुटि: नयाँ वस्तु सूचीमा थप्न सकेन</string>
+</resources>

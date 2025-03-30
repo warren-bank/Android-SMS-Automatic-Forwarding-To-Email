@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Do e-mailu</string>
+  <string name="label_enable">Povolit službu</string>
+  <string name="menu_add">PŘIDAT</string>
+  <string name="menu_smtp_server">SMTP Server.</string>
+  <string name="label_button_cancel">STORNO</string>
+  <string name="label_button_delete">ODSTRANIT</string>
+  <string name="label_button_save">ULOŽIT</string>
+  <string name="label_email_recipient">Příjemce e-mailu:</string>
+  <string name="label_email_subject">Předmět e-mailu:</string>
+  <string name="label_sms_sender">SMS Odesílatel musí končit na:</string>
+  <string name="default_email_subject">Nová textová zpráva od {{sender}}</string>
+  <string name="label_smtp_hostname">Hostitel:</string>
+  <string name="label_smtp_port">Přístav:</string>
+  <string name="label_smtp_encryption">Použít šifrování:</string>
+  <string name="label_smtp_authentication">Požadovat ověření</string>
+  <string name="label_smtp_username">Uživatelské jméno:</string>
+  <string name="label_smtp_password">Heslo:</string>
+  <string name="label_smtp_from">Od:</string>
+  <string name="label_smtp_subject">Účel:</string>
+  <string name="label_test_email_heading">Testovací e-mail</string>
+  <string name="label_test_email_recipient">Adresát:</string>
+  <string name="label_button_test_email_send">Odeslat</string>
+  <string name="content_test_email_message">SMTP Nastavení serveru jsou správná!</string>
+  <string name="notification_test_email_sent">Testovací e-mail odeslán</string>
+  <string name="smtp_encryption_option_none">č.</string>
+  <string name="error_missing_required_value">Chyba: Chybí požadovaná hodnota</string>
+  <string name="error_add_listitem">Chyba: Nelze přidat novou položku do seznamu</string>
+</resources>

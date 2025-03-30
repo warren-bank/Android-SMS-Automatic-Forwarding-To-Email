@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS ఈమెయిల్ కు</string>
+  <string name="label_enable">సేవను చేర్చు</string>
+  <string name="menu_add">\@ TITLE: WINDOW</string>
+  <string name="menu_smtp_server">SMTP సెర్వర్</string>
+  <string name="label_button_cancel">రద్దు</string>
+  <string name="label_button_delete">తొలగించు</string>
+  <string name="label_button_save">\@ ACTION: BUTTON</string>
+  <string name="label_email_recipient">ఈమెయిల్ రిసిపియంట్:</string>
+  <string name="label_email_subject">ఈమెయిల్ విషయము:</string>
+  <string name="label_sms_sender">SMS సెండర్ ముగించాలి:</string>
+  <string name="default_email_subject">కొత్త టెక్స్ట్ సందేశం నుండి {{sender}}</string>
+  <string name="label_smtp_hostname">హోస్ట్:</string>
+  <string name="label_smtp_port">పోర్ట్:</string>
+  <string name="label_smtp_encryption">ఎన్క్రిప్షన్ వుపయోగించుము:</string>
+  <string name="label_smtp_authentication">అభ్యర్ధన అభ్యర్ధన</string>
+  <string name="label_smtp_username">Username:</string>
+  <string name="label_smtp_password">సంకేతపదము:</string>
+  <string name="label_smtp_from">నుండి:</string>
+  <string name="label_smtp_subject">విషయము:</string>
+  <string name="label_test_email_heading">టెస్ట్ మెయిల్</string>
+  <string name="label_test_email_recipient">నిపుణులు:</string>
+  <string name="label_button_test_email_send">పంపు</string>
+  <string name="content_test_email_message">SMTP సెర్వర్ అమరికలను సరైనది!</string>
+  <string name="notification_test_email_sent">టెస్ట్ మెయిల్ పంపింది</string>
+  <string name="smtp_encryption_option_none">లేదు</string>
+  <string name="error_missing_required_value">దోషము: మినహాయించబడిన విలుణము</string>
+  <string name="error_add_listitem">దోషము: జాబితాకు కొత్త అంశమును జతచేయలేక పోయింది</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS El. paštu</string>
+  <string name="label_enable">Įgalinti Paslaugos</string>
+  <string name="menu_add">ADD</string>
+  <string name="menu_smtp_server">SMTP Serveris</string>
+  <string name="label_button_cancel">CANEL</string>
+  <string name="label_button_delete">IŠTRINTI</string>
+  <string name="label_button_save">SAVE</string>
+  <string name="label_email_recipient">El. pašto gavėjas:</string>
+  <string name="label_email_subject">E. pašto subjektas:</string>
+  <string name="label_sms_sender">SMS Siuntėjas turi baigti:</string>
+  <string name="default_email_subject">Nauja teksto žinute iš {{sender}}</string>
+  <string name="label_smtp_hostname">Šeimininkas:</string>
+  <string name="label_smtp_port">Prievadas:</string>
+  <string name="label_smtp_encryption">Naudoti šifravimą:</string>
+  <string name="label_smtp_authentication">Reikalauti autentikavimo</string>
+  <string name="label_smtp_username">Naudotojo vardas:</string>
+  <string name="label_smtp_password">Slaptažodis:</string>
+  <string name="label_smtp_from">Iš:</string>
+  <string name="label_smtp_subject">Dalykas:</string>
+  <string name="label_test_email_heading">Bandymo E</string>
+  <string name="label_test_email_recipient">Gavėjas:</string>
+  <string name="label_button_test_email_send">Siųsti</string>
+  <string name="content_test_email_message">SMTP Serverio nustatymai yra teisingi!</string>
+  <string name="notification_test_email_sent">Siunčiamas bandymo el. paštas</string>
+  <string name="smtp_encryption_option_none">Ne</string>
+  <string name="error_missing_required_value">Klaida: trūksta Reikalinga Vertė</string>
+  <string name="error_add_listitem">Klaida: nepavyko įtraukti naujo elemento į sąrašą</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS ઈ-મેઈલ માટે</string>
+  <string name="label_enable">સેવા સક્રિય કરો</string>
+  <string name="menu_add">ઉમેરો</string>
+  <string name="menu_smtp_server">SMTP સર્વર</string>
+  <string name="label_button_cancel">રદ કરો</string>
+  <string name="label_button_delete">કાઢી નાંખો</string>
+  <string name="label_button_save">સંગ્રહ કરો</string>
+  <string name="label_email_recipient">ઈ-મેઈલ મેળવનાર:</string>
+  <string name="label_email_subject">ઈ-મેઈલ વિષય:</string>
+  <string name="label_sms_sender">SMS મોકલનાર સાથે અંત થવુ જ જોઇએ:</string>
+  <string name="default_email_subject">માંથી નવો લખાણ સંદેશો {{sender}}</string>
+  <string name="label_smtp_hostname">યજમાન:</string>
+  <string name="label_smtp_port">પોર્ટ:</string>
+  <string name="label_smtp_encryption">એનક્રિપ્શન વાપરો:</string>
+  <string name="label_smtp_authentication">સત્તાધિકરણ જરૂરી છે</string>
+  <string name="label_smtp_username">વપરાશકર્તાનામ:</string>
+  <string name="label_smtp_password">પાસવર્ડ:</string>
+  <string name="label_smtp_from">તરફથી:</string>
+  <string name="label_smtp_subject">વિષય:</string>
+  <string name="label_test_email_heading">ઇમેઇલ ચકાસણી</string>
+  <string name="label_test_email_recipient">મેળવનાર:</string>
+  <string name="label_button_test_email_send">મોકલો</string>
+  <string name="content_test_email_message">SMTP સર્વર સુયોજનો સાચી છે!</string>
+  <string name="notification_test_email_sent">ઇમેઇલ મોકલેલ ચકાસણી</string>
+  <string name="smtp_encryption_option_none">ના</string>
+  <string name="error_missing_required_value">ભૂલ: ગુમ થયેલ જરૂરી કિંમત</string>
+  <string name="error_add_listitem">ક્ષતિ: યાદીમાં નવી વસ્તુ ઉમેરી શક્યા નહિં</string>
+</resources>

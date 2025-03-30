@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS E-pasts</string>
+  <string name="label_enable">Ieslēgt servisu</string>
+  <string name="menu_add">ADD</string>
+  <string name="menu_smtp_server">SMTP Serveris</string>
+  <string name="label_button_cancel">ATCELT</string>
+  <string name="label_button_delete">DZĒST</string>
+  <string name="label_button_save">SAVE</string>
+  <string name="label_email_recipient">E-pasta saņēmējs:</string>
+  <string name="label_email_subject">Email Subject:</string>
+  <string name="label_sms_sender">SMS Sūtītājam ir jābeidzas ar:</string>
+  <string name="default_email_subject">Jauns teksta ziņojums no {{sender}}</string>
+  <string name="label_smtp_hostname">Uzņēmēja:</string>
+  <string name="label_smtp_port">Osta:</string>
+  <string name="label_smtp_encryption">Lietot šifrēšanu:</string>
+  <string name="label_smtp_authentication">Pieprasīt autentificēšanu</string>
+  <string name="label_smtp_username">Lietotājvārds:</string>
+  <string name="label_smtp_password">Parole:</string>
+  <string name="label_smtp_from">No:</string>
+  <string name="label_smtp_subject">Priekšmets:</string>
+  <string name="label_test_email_heading">Testa epasts</string>
+  <string name="label_test_email_recipient">Saņēmējs:</string>
+  <string name="label_button_test_email_send">Sūtīt</string>
+  <string name="content_test_email_message">SMTP Servera iestatījumi ir pareizi!</string>
+  <string name="notification_test_email_sent">Nosūtītais testa e-pasts</string>
+  <string name="smtp_encryption_option_none">Nr.</string>
+  <string name="error_missing_required_value">Kļūda: Trūkstošās Vajadzīgās Vērtības</string>
+  <string name="error_add_listitem">Kļūda: neizdevās pievienot sarakstam jaunu ierakstu</string>
+</resources>

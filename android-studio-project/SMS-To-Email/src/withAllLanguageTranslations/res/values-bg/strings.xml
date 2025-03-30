@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS За имейл</string>
+  <string name="label_enable">Активиране на услуга</string>
+  <string name="menu_add">ADD</string>
+  <string name="menu_smtp_server">SMTP Сървър:</string>
+  <string name="label_button_cancel">ОТМЯНА</string>
+  <string name="label_button_delete">DELETE</string>
+  <string name="label_button_save">SAVE</string>
+  <string name="label_email_recipient">Получател на имейла:</string>
+  <string name="label_email_subject">Тема::</string>
+  <string name="label_sms_sender">SMS Изпращачът трябва да завърши с:</string>
+  <string name="default_email_subject">Ново текстово съобщение от {{sender}}</string>
+  <string name="label_smtp_hostname">Хост::</string>
+  <string name="label_smtp_port">Порт::</string>
+  <string name="label_smtp_encryption">Използване на шифроване:</string>
+  <string name="label_smtp_authentication">Изисква удостоверяване</string>
+  <string name="label_smtp_username">Потребителско име:</string>
+  <string name="label_smtp_password">Парола::</string>
+  <string name="label_smtp_from">От ...:</string>
+  <string name="label_smtp_subject">Тема::</string>
+  <string name="label_test_email_heading">Имейл за тестване</string>
+  <string name="label_test_email_recipient">Получател::</string>
+  <string name="label_button_test_email_send">Изпрати ...</string>
+  <string name="content_test_email_message">SMTP Настройките на сървъра са правилни!</string>
+  <string name="notification_test_email_sent">Тестван е-поща</string>
+  <string name="smtp_encryption_option_none">Не.</string>
+  <string name="error_missing_required_value">Грешка: Липсва липсващата стойност</string>
+  <string name="error_add_listitem">Грешка: Не може да се добави нов елемент в списъка</string>
+</resources>

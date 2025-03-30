@@ -6,7 +6,7 @@
     "@warren-bank/translate-android-strings": "^1.9.2"
   },
   "scripts": {
-    "translate":       "translate-android-strings -i \"en\" -f \"android-studio-project/SMS-To-Email/src/main/res/values/strings.xml\" -d \"android-studio-project/SMS-To-Email/src/withAllLanguageTranslations/res\" -m --na --nc --nw -b \"(?:SMS|SMTP)\"",
+    "translate":       "translate-android-strings -i \"en\" -f \"android-studio-project/SMS-To-Email/src/main/res/values/strings.xml\" -d \"android-studio-project/SMS-To-Email/src/withAllLanguageTranslations/res\" -m --na --nc --nw -b \"(?:SMS|SMTP|\\{\\{sender\\}\\})\"",
     "translate:debug": "npm run translate -- -o \"en\" --debug"
   }
 }

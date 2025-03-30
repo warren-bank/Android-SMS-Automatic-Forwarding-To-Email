@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Vers le courriel</string>
+  <string name="label_enable">Activer le service</string>
+  <string name="menu_add">AJOUTER</string>
+  <string name="menu_smtp_server">SMTP Serveur</string>
+  <string name="label_button_cancel">ANNULER</string>
+  <string name="label_button_delete">DELETE</string>
+  <string name="label_button_save">SAVE</string>
+  <string name="label_email_recipient">Destinataire du courriel:</string>
+  <string name="label_email_subject">Objet du courriel:</string>
+  <string name="label_sms_sender">SMS L\'expéditeur doit terminer par:</string>
+  <string name="default_email_subject">Nouveau message texte de {{sender}}</string>
+  <string name="label_smtp_hostname">Hôte:</string>
+  <string name="label_smtp_port">Port:</string>
+  <string name="label_smtp_encryption">Utiliser le chiffrement:</string>
+  <string name="label_smtp_authentication">Demander l\'authentification</string>
+  <string name="label_smtp_username">Nom utilisateur:</string>
+  <string name="label_smtp_password">mot de passe:</string>
+  <string name="label_smtp_from">De:</string>
+  <string name="label_smtp_subject">Objet:</string>
+  <string name="label_test_email_heading">Tester le courriel</string>
+  <string name="label_test_email_recipient">Destinataire:</string>
+  <string name="label_button_test_email_send">Envoyer</string>
+  <string name="content_test_email_message">SMTP Les paramètres du serveur sont corrects!</string>
+  <string name="notification_test_email_sent">Courriel de test envoyé</string>
+  <string name="smtp_encryption_option_none">non</string>
+  <string name="error_missing_required_value">Erreur: Valeur requise manquante</string>
+  <string name="error_add_listitem">Erreur: Impossible d\'ajouter un nouvel élément à la liste</string>
+</resources>

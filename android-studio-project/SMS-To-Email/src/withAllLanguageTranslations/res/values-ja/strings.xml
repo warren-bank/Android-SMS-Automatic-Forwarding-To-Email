@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS 宛先 E メール</string>
+  <string name="label_enable">サービスを有効に</string>
+  <string name="menu_add">追加</string>
+  <string name="menu_smtp_server">SMTP サーバー ( )</string>
+  <string name="label_button_cancel">キャンセル</string>
+  <string name="label_button_delete">削除</string>
+  <string name="label_button_save">セーブ</string>
+  <string name="label_email_recipient">E メール受信者:</string>
+  <string name="label_email_subject">メールの件名:</string>
+  <string name="label_sms_sender">SMS 送信側は、:</string>
+  <string name="default_email_subject">新規テキスト・メッセージ {{sender}}</string>
+  <string name="label_smtp_hostname">ホスト:</string>
+  <string name="label_smtp_port">ポート:</string>
+  <string name="label_smtp_encryption">暗号の使用:</string>
+  <string name="label_smtp_authentication">認証が必要</string>
+  <string name="label_smtp_username">ユーザー名:</string>
+  <string name="label_smtp_password">パスワード:</string>
+  <string name="label_smtp_from">差出人:</string>
+  <string name="label_smtp_subject">科目:</string>
+  <string name="label_test_email_heading">テスト E メール</string>
+  <string name="label_test_email_recipient">受信者:</string>
+  <string name="label_button_test_email_send">送信</string>
+  <string name="content_test_email_message">SMTP サーバー設定が正しい!</string>
+  <string name="notification_test_email_sent">テスト E メール送信</string>
+  <string name="smtp_encryption_option_none">いいえ</string>
+  <string name="error_missing_required_value">エラー: 欠落している値</string>
+  <string name="error_add_listitem">エラー: 新規項目をリストに追加できませんでした</string>
+</resources>

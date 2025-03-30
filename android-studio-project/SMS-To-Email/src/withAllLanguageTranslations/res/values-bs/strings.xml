@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS U e-mail</string>
+  <string name="label_enable">Omogući uslugu</string>
+  <string name="menu_add">DODAJ</string>
+  <string name="menu_smtp_server">SMTP Poslužitelj</string>
+  <string name="label_button_cancel">OPOZIV</string>
+  <string name="label_button_delete">BRIŠI</string>
+  <string name="label_button_save">SPREMI</string>
+  <string name="label_email_recipient">Primatelj e-maila:</string>
+  <string name="label_email_subject">Predmet e-maila:</string>
+  <string name="label_sms_sender">SMS Pošiljatelj mora završiti sa:</string>
+  <string name="default_email_subject">Nova tekstualna poruka od {{sender}}</string>
+  <string name="label_smtp_hostname">Host:</string>
+  <string name="label_smtp_port">Port:</string>
+  <string name="label_smtp_encryption">Koristi Šifriranje:</string>
+  <string name="label_smtp_authentication">Traži provjeru autentičnosti</string>
+  <string name="label_smtp_username">Korisničko ime:</string>
+  <string name="label_smtp_password">Lozinka:</string>
+  <string name="label_smtp_from">Od:</string>
+  <string name="label_smtp_subject">Subjekt:</string>
+  <string name="label_test_email_heading">Testni e-mail</string>
+  <string name="label_test_email_recipient">Primatelj:</string>
+  <string name="label_button_test_email_send">Pošalji</string>
+  <string name="content_test_email_message">SMTP Postavke servera su ispravne!</string>
+  <string name="notification_test_email_sent">Testni e-mail poslan</string>
+  <string name="smtp_encryption_option_none">Ne</string>
+  <string name="error_missing_required_value">Greška: Nedostaje potrebna vrijednost</string>
+  <string name="error_add_listitem">Greška: Ne mogu dodati novu stavku u listu</string>
+</resources>

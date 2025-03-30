@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Ke Emel</string>
+  <string name="label_enable">Benarkan Servis</string>
+  <string name="menu_add">ADD</string>
+  <string name="menu_smtp_server">SMTP Pelayan</string>
+  <string name="label_button_cancel">BATAL</string>
+  <string name="label_button_delete">PADAM</string>
+  <string name="label_button_save">SIMPAN</string>
+  <string name="label_email_recipient">Penerima E-mel:</string>
+  <string name="label_email_subject">Tajuk Emel:</string>
+  <string name="label_sms_sender">SMS Pengirim mesti berakhir dengan:</string>
+  <string name="default_email_subject">Mesej teks baru dari {{sender}}</string>
+  <string name="label_smtp_hostname">Hos:</string>
+  <string name="label_smtp_port">Port:</string>
+  <string name="label_smtp_encryption">Guna Penyulitan:</string>
+  <string name="label_smtp_authentication">Memerlukan Pengesahihan</string>
+  <string name="label_smtp_username">Namapengguna:</string>
+  <string name="label_smtp_password">Katalaluan:</string>
+  <string name="label_smtp_from">Dari:</string>
+  <string name="label_smtp_subject">Subjek:</string>
+  <string name="label_test_email_heading">Emel Ujian</string>
+  <string name="label_test_email_recipient">Penerima:</string>
+  <string name="label_button_test_email_send">Hantar</string>
+  <string name="content_test_email_message">SMTP Tetapan pelayan adalah betul!</string>
+  <string name="notification_test_email_sent">Emel ujian dihantar</string>
+  <string name="smtp_encryption_option_none">tidak</string>
+  <string name="error_missing_required_value">Ralat: Nilai Yang Hilang Hilang</string>
+  <string name="error_add_listitem">Ralat: Tidak dapat tambah item baru ke senarai</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Chun Ríomhphost</string>
+  <string name="label_enable">Cumasaigh an tSeirbhís</string>
+  <string name="menu_add">ADD</string>
+  <string name="menu_smtp_server">SMTP Freastalaí</string>
+  <string name="label_button_cancel">CEALAITHE</string>
+  <string name="label_button_delete">SCRIOS</string>
+  <string name="label_button_save">SAT</string>
+  <string name="label_email_recipient">Faighteoir Ríomhphoist:</string>
+  <string name="label_email_subject">Ríomhphost Faoi:</string>
+  <string name="label_sms_sender">SMS Caithfidh an seoltóir deireadh a chur leis:</string>
+  <string name="default_email_subject">Teachtaireacht téacs nua ó {{sender}}</string>
+  <string name="label_smtp_hostname">Óstríomhaire:</string>
+  <string name="label_smtp_port">Port:</string>
+  <string name="label_smtp_encryption">Úsáid Criptiú:</string>
+  <string name="label_smtp_authentication">Fíordheimhniú</string>
+  <string name="label_smtp_username">Ainm úsáideora:</string>
+  <string name="label_smtp_password">Focal faire:</string>
+  <string name="label_smtp_from">Ó:</string>
+  <string name="label_smtp_subject">Ábhar:</string>
+  <string name="label_test_email_heading">Ríomhphost Tástála</string>
+  <string name="label_test_email_recipient">Faighteoir:</string>
+  <string name="label_button_test_email_send">Seol</string>
+  <string name="content_test_email_message">SMTP Tá socruithe an fhreastalaí ceart!</string>
+  <string name="notification_test_email_sent">Ríomhphost á sheoladh</string>
+  <string name="smtp_encryption_option_none">gan</string>
+  <string name="error_missing_required_value">Earráid: Luach is gá</string>
+  <string name="error_add_listitem">Earráid: Níorbh fhéidir mír nua a chur leis an liosta</string>
+</resources>

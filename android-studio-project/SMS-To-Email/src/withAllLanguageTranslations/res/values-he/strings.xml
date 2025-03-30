@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS אל \' דואל \'</string>
+  <string name="label_enable">הפעלת שירות</string>
+  <string name="menu_add">הוספה</string>
+  <string name="menu_smtp_server">SMTP שרת</string>
+  <string name="label_button_cancel">ביטול</string>
+  <string name="label_button_delete">מחיקה</string>
+  <string name="label_button_save">שמירה</string>
+  <string name="label_email_recipient">נמען דואל:</string>
+  <string name="label_email_subject">נושא דואל:</string>
+  <string name="label_sms_sender">SMS שולח חייב להסתיים עם:</string>
+  <string name="default_email_subject">הודעת תמליל חדשה מאת: {{sender}}</string>
+  <string name="label_smtp_hostname">מארח:</string>
+  <string name="label_smtp_port">פורט:</string>
+  <string name="label_smtp_encryption">שימוש בהצפנה:</string>
+  <string name="label_smtp_authentication">דרוש אימות</string>
+  <string name="label_smtp_username">שם משתמש:</string>
+  <string name="label_smtp_password">סיסמה:</string>
+  <string name="label_smtp_from">מ -:</string>
+  <string name="label_smtp_subject">נושא:</string>
+  <string name="label_test_email_heading">בדיקת דואל</string>
+  <string name="label_test_email_recipient">נמענים:</string>
+  <string name="label_button_test_email_send">שלח</string>
+  <string name="content_test_email_message">SMTP הגדרות השרת נכונות.!</string>
+  <string name="notification_test_email_sent">בדיקת דואל נשלחה</string>
+  <string name="smtp_encryption_option_none">לא</string>
+  <string name="error_missing_required_value">שגיאה: ערך דרוש חסר</string>
+  <string name="error_add_listitem">שגיאה: לא ניתן להוסיף פריט חדש לרשימה</string>
+</resources>

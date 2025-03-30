@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Email</string>
+  <string name="label_enable">Szolgáltatás engedélyezése</string>
+  <string name="menu_add">HOZZÁADÁS</string>
+  <string name="menu_smtp_server">SMTP Kiszolgáló</string>
+  <string name="label_button_cancel">MÉGSE</string>
+  <string name="label_button_delete">TÖRLÉS</string>
+  <string name="label_button_save">MENTÉS</string>
+  <string name="label_email_recipient">E-mail címzett:</string>
+  <string name="label_email_subject">E-mail tárgy:</string>
+  <string name="label_sms_sender">SMS A küldőnek véget kell érnie:</string>
+  <string name="default_email_subject">Új szöveg üzenet {{sender}}</string>
+  <string name="label_smtp_hostname">Hoszt:</string>
+  <string name="label_smtp_port">Port:</string>
+  <string name="label_smtp_encryption">Titkosítás használata:</string>
+  <string name="label_smtp_authentication">Hitelesítés megkövetelése</string>
+  <string name="label_smtp_username">Felhasználónév:</string>
+  <string name="label_smtp_password">Jelszó:</string>
+  <string name="label_smtp_from">Forrás::</string>
+  <string name="label_smtp_subject">Tárgy:</string>
+  <string name="label_test_email_heading">Teszt e-mail</string>
+  <string name="label_test_email_recipient">Címzett:</string>
+  <string name="label_button_test_email_send">Küldés</string>
+  <string name="content_test_email_message">SMTP A kiszolgáló beállításai helyesek!</string>
+  <string name="notification_test_email_sent">Küldött teszt e-mail</string>
+  <string name="smtp_encryption_option_none">Nem</string>
+  <string name="error_missing_required_value">Hiba: Hiányzó kötelező érték</string>
+  <string name="error_add_listitem">Hiba: Nem adható hozzá új elem a listához</string>
+</resources>

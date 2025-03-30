@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS ای میل</string>
+  <string name="label_enable">قابل دید خدمت</string>
+  <string name="menu_add">شامل ہیں</string>
+  <string name="menu_smtp_server">SMTP سرور</string>
+  <string name="label_button_cancel">منسوخ</string>
+  <string name="label_button_delete">حذف</string>
+  <string name="label_button_save">بچائیں</string>
+  <string name="label_email_recipient">ای میل ریسرٹ:</string>
+  <string name="label_email_subject">ای میل سبجیکٹ:</string>
+  <string name="label_sms_sender">SMS سینڈر کے ساتھ ختم ہونا ضروری:</string>
+  <string name="default_email_subject">سے نیا ٹیکسٹ پیغام {{sender}}</string>
+  <string name="label_smtp_hostname">ہوسٹ:</string>
+  <string name="label_smtp_port">پورٹ:</string>
+  <string name="label_smtp_encryption">Encryption استعمال کریں:</string>
+  <string name="label_smtp_authentication">Require توثیق</string>
+  <string name="label_smtp_username">یوسینام:</string>
+  <string name="label_smtp_password">پاس ورڈ:</string>
+  <string name="label_smtp_from">سے:</string>
+  <string name="label_smtp_subject">زمرہ: مضامین:</string>
+  <string name="label_test_email_heading">ٹیسٹ ای میل</string>
+  <string name="label_test_email_recipient">ریسرڈ:</string>
+  <string name="label_button_test_email_send">بھیجیں</string>
+  <string name="content_test_email_message">SMTP سرور کی ترتیبات درست ہیں!</string>
+  <string name="notification_test_email_sent">ٹیسٹ ای میل بھیجی</string>
+  <string name="smtp_encryption_option_none">ن</string>
+  <string name="error_missing_required_value">غلطي: مصاحي دوبارہ دریافت</string>
+  <string name="error_add_listitem">غلطی: نئی شے کو فہرست میں شامل نہیں کیا جاسکتا</string>
+</resources>

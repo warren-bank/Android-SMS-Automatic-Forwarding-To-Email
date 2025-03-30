@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Προς Email</string>
+  <string name="label_enable">Ενεργοποίηση υπηρεσίας</string>
+  <string name="menu_add">ΠΡΟΣΘΉΚΗ</string>
+  <string name="menu_smtp_server">SMTP Εξυπηρετητής:</string>
+  <string name="label_button_cancel">ΑΚΎΡΩΣΗ.</string>
+  <string name="label_button_delete">ΔΙΑΓΡΑΦΉ:</string>
+  <string name="label_button_save">ΑΠΟΘΉΚΕΥΣΗ:</string>
+  <string name="label_email_recipient">Αποδέκτη email:</string>
+  <string name="label_email_subject">Θέμα email:</string>
+  <string name="label_sms_sender">SMS Ο αποστολέας πρέπει να τελειώνει.:</string>
+  <string name="default_email_subject">Νέο μήνυμα κειμένου από: {{sender}}</string>
+  <string name="label_smtp_hostname">Υπολογιστής::</string>
+  <string name="label_smtp_port">Θύρα.:</string>
+  <string name="label_smtp_encryption">Χρήση κρυπτογράφησης.:</string>
+  <string name="label_smtp_authentication">Απαιτείται εξακρίβωση στοιχείων.</string>
+  <string name="label_smtp_username">Όνομα χρήστη::</string>
+  <string name="label_smtp_password">Κωδικός πρόσβασης:</string>
+  <string name="label_smtp_from">Από::</string>
+  <string name="label_smtp_subject">Θέμα::</string>
+  <string name="label_test_email_heading">Email δοκιμής</string>
+  <string name="label_test_email_recipient">-Αποδέκτη:</string>
+  <string name="label_button_test_email_send">Αποστολή:</string>
+  <string name="content_test_email_message">SMTP Οι ρυθμίσεις εξυπηρετητή είναι σωστές.!</string>
+  <string name="notification_test_email_sent">Αποστολή email δοκιμής</string>
+  <string name="smtp_encryption_option_none">-Όχι</string>
+  <string name="error_missing_required_value">Σφάλμα: Λείπει η απαιτούμενη τιμή</string>
+  <string name="error_add_listitem">Σφάλμα: Δεν ήταν δυνατή η προσθήκη νέου στοιχείου στη λίστα</string>
+</resources>

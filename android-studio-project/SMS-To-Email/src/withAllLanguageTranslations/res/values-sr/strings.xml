@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Е-пошта</string>
+  <string name="label_enable">Омогући услугу</string>
+  <string name="menu_add">АДД</string>
+  <string name="menu_smtp_server">SMTP Сервер</string>
+  <string name="label_button_cancel">ОТКАЖИ</string>
+  <string name="label_button_delete">ИЗБРИШИ</string>
+  <string name="label_button_save">САВЕ</string>
+  <string name="label_email_recipient">Прималац е-поште:</string>
+  <string name="label_email_subject">Поданик е:</string>
+  <string name="label_sms_sender">SMS Пошиљалац мора завршити са:</string>
+  <string name="default_email_subject">Нова текстуална порука од {{sender}}</string>
+  <string name="label_smtp_hostname">Домаћин:</string>
+  <string name="label_smtp_port">Порт:</string>
+  <string name="label_smtp_encryption">Користи шифровање:</string>
+  <string name="label_smtp_authentication">Захтевај потврду идентитета</string>
+  <string name="label_smtp_username">Корисничко име:</string>
+  <string name="label_smtp_password">Лозинка:</string>
+  <string name="label_smtp_from">Од:</string>
+  <string name="label_smtp_subject">Тема:</string>
+  <string name="label_test_email_heading">Е-пошта</string>
+  <string name="label_test_email_recipient">Прималац:</string>
+  <string name="label_button_test_email_send">Пошаљи</string>
+  <string name="content_test_email_message">SMTP Поставке сервера су исправне!</string>
+  <string name="notification_test_email_sent">Послана е-пошта</string>
+  <string name="smtp_encryption_option_none">не</string>
+  <string name="error_missing_required_value">Грешка: Недостаје захтевана вредност</string>
+  <string name="error_add_listitem">Грешка: Није могуће додати нову ставку на листу</string>
+</resources>

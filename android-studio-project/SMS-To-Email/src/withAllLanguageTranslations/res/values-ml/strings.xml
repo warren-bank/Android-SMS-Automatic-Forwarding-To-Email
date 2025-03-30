@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS ഈമെയില് ചെയ്യുക</string>
+  <string name="label_enable">സേവനം പ്രാവര്ത്തികമാക്കുക</string>
+  <string name="menu_add">ചേര്ക്കുക</string>
+  <string name="menu_smtp_server">SMTP സര്വര്</string>
+  <string name="label_button_cancel">റദ്ദാക്കുക</string>
+  <string name="label_button_delete">നീക്കം ചെയ്യുക</string>
+  <string name="label_button_save">സൂക്ഷിക്കുക</string>
+  <string name="label_email_recipient">ഈമെയില് രചയിതാവു്:</string>
+  <string name="label_email_subject">ഈമെയില് വിഷയം:</string>
+  <string name="label_sms_sender">SMS സെന്ഡര് അവസാനിക്കേണ്ടതുണ്ട്:</string>
+  <string name="default_email_subject">പുതിയ ടെക്സ്റ്റ് സന്ദേശം {{sender}}</string>
+  <string name="label_smtp_hostname">ഹോസ്റ്റ്:</string>
+  <string name="label_smtp_port">പോര്ട്ട്:</string>
+  <string name="label_smtp_encryption">എന്ക്രിപ്ഷന് ഉപയോഗിക്കുക:</string>
+  <string name="label_smtp_authentication">ആധികാരികത ഉറപ്പാക്കല്</string>
+  <string name="label_smtp_username">ഉപയോജനം:</string>
+  <string name="label_smtp_password">അടയാളവാക്കു്:</string>
+  <string name="label_smtp_from">മുതല്:</string>
+  <string name="label_smtp_subject">വിഷയം:</string>
+  <string name="label_test_email_heading">ടെസ്റ്റ് ഇമെയില്</string>
+  <string name="label_test_email_recipient">ലഭിക്കുകName:</string>
+  <string name="label_button_test_email_send">അയയ്ക്കുക</string>
+  <string name="content_test_email_message">SMTP സര്വര് സജ്ജീകരണങ്ങള് ശരിയാണു്!</string>
+  <string name="notification_test_email_sent">അയച്ച ടെസ്റ്റ് ഇമെയില്</string>
+  <string name="smtp_encryption_option_none">ഇല്ല</string>
+  <string name="error_missing_required_value">പിശക്: ലഭ്യമായ ആവശ്യമായ മൂല്ല്യം</string>
+  <string name="error_add_listitem">പിശകു്: പട്ടികയില് പുതിയ ഇനം ചേര്ക്കുവാന് സാധ്യമായില്ല</string>
+</resources>

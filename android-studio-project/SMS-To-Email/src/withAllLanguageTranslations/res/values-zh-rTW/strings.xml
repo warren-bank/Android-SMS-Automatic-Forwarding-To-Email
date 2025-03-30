@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS 收件者電子郵件</string>
+  <string name="label_enable">啟用服務</string>
+  <string name="menu_add">新增</string>
+  <string name="menu_smtp_server">SMTP 伺服器</string>
+  <string name="label_button_cancel">取消</string>
+  <string name="label_button_delete">刪除</string>
+  <string name="label_button_save">儲存</string>
+  <string name="label_email_recipient">電子郵件收件者:</string>
+  <string name="label_email_subject">電子郵件主旨:</string>
+  <string name="label_sms_sender">SMS 傳送端必須以結尾:</string>
+  <string name="default_email_subject">來自的新文字訊息 {{sender}}</string>
+  <string name="label_smtp_hostname">主機:</string>
+  <string name="label_smtp_port">埠:</string>
+  <string name="label_smtp_encryption">使用加密:</string>
+  <string name="label_smtp_authentication">需要鑑別</string>
+  <string name="label_smtp_username">Username:</string>
+  <string name="label_smtp_password">密碼:</string>
+  <string name="label_smtp_from">從:</string>
+  <string name="label_smtp_subject">項目:</string>
+  <string name="label_test_email_heading">測試電子郵件</string>
+  <string name="label_test_email_recipient">收件者:</string>
+  <string name="label_button_test_email_send">傳送</string>
+  <string name="content_test_email_message">SMTP 伺服器設定正確!</string>
+  <string name="notification_test_email_sent">測試電子郵件已傳送</string>
+  <string name="smtp_encryption_option_none">不</string>
+  <string name="error_missing_required_value">錯誤：遺漏必要值</string>
+  <string name="error_add_listitem">錯誤：無法將新項目新增至清單</string>
+</resources>

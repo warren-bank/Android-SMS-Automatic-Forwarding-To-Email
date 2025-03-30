@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS A Email</string>
+  <string name="label_enable">Habilitar servicio</string>
+  <string name="menu_add">ADD</string>
+  <string name="menu_smtp_server">SMTP Servidor</string>
+  <string name="label_button_cancel">CANCEL</string>
+  <string name="label_button_delete">DELETE</string>
+  <string name="label_button_save">SAVE</string>
+  <string name="label_email_recipient">Destinatario de correo electrónico:</string>
+  <string name="label_email_subject">Correo electrónico:</string>
+  <string name="label_sms_sender">SMS El remitente debe terminar con:</string>
+  <string name="default_email_subject">Nuevo mensaje de texto de {{sender}}</string>
+  <string name="label_smtp_hostname">Host:</string>
+  <string name="label_smtp_port">Puerto:</string>
+  <string name="label_smtp_encryption">Utilizar cifrado:</string>
+  <string name="label_smtp_authentication">Requerir autenticación</string>
+  <string name="label_smtp_username">Nombre:</string>
+  <string name="label_smtp_password">Contraseña:</string>
+  <string name="label_smtp_from">De:</string>
+  <string name="label_smtp_subject">Asunto:</string>
+  <string name="label_test_email_heading">Email de prueba</string>
+  <string name="label_test_email_recipient">Destinatario:</string>
+  <string name="label_button_test_email_send">Enviar</string>
+  <string name="content_test_email_message">SMTP Los valores del servidor son correctos!</string>
+  <string name="notification_test_email_sent">Enviar correo electrónico de prueba</string>
+  <string name="smtp_encryption_option_none">no</string>
+  <string name="error_missing_required_value">Error: Falta el valor necesario</string>
+  <string name="error_add_listitem">Error: No se ha podido añadir un elemento nuevo a la lista</string>
+</resources>

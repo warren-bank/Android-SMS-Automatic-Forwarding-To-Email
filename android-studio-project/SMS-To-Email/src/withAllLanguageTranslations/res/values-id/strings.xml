@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Untuk Email:</string>
+  <string name="label_enable">Aktifkan Layanan</string>
+  <string name="menu_add">ADD</string>
+  <string name="menu_smtp_server">SMTP Server</string>
+  <string name="label_button_cancel">Batalkan</string>
+  <string name="label_button_delete">HAPUS</string>
+  <string name="label_button_save">SAVE</string>
+  <string name="label_email_recipient">Penerima Email::</string>
+  <string name="label_email_subject">Subjek Email::</string>
+  <string name="label_sms_sender">SMS Pengirim harus diakhiri dengan:</string>
+  <string name="default_email_subject">Pesan teks baru dari {{sender}}</string>
+  <string name="label_smtp_hostname">Host:</string>
+  <string name="label_smtp_port">Port:</string>
+  <string name="label_smtp_encryption">Gunakan Enkripsi:</string>
+  <string name="label_smtp_authentication">Memerlukan Otentikasi</string>
+  <string name="label_smtp_username">Nama pengguna:</string>
+  <string name="label_smtp_password">Kata Sandi:</string>
+  <string name="label_smtp_from">Dari:</string>
+  <string name="label_smtp_subject">Subjek:</string>
+  <string name="label_test_email_heading">Email Pengujian</string>
+  <string name="label_test_email_recipient">Penerima:</string>
+  <string name="label_button_test_email_send">Kirim</string>
+  <string name="content_test_email_message">SMTP Pengaturan server benar!</string>
+  <string name="notification_test_email_sent">Email uji yang dikirim</string>
+  <string name="smtp_encryption_option_none">tidak ada</string>
+  <string name="error_missing_required_value">Kesalahan: Kehilangan Nilai yang Diperlukan</string>
+  <string name="error_add_listitem">Kesalahan: Tidak dapat menambahkan item baru ke daftar</string>
+</resources>
